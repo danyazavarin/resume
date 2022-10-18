@@ -108,6 +108,16 @@ img {
     font-weight: 300;
 }
 
+.contactInfo ul li a {
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.contactInfo ul li a:hover {
+    color: #03a9f4
+}
+
 .contactInfo.education li {
     margin-bottom: 15px;
 }
@@ -176,7 +186,8 @@ p {
 }
 
 .year_company {
-    min-width: 150px;
+    min-width: 150px; /* troubles*/
+    max-width: 150px; /* troubles*/
 }
 
 .year_company h5 {
@@ -189,6 +200,26 @@ p {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
+}
+
+.box ul {
+    position: relative; /* for what*/
+}
+
+.box ul li {
+    position: relative; /* for what*/
+    list-style: none;
+    margin: 2px 0;
+    cursor: pointer; /* for what*/
+}
+
+.box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.box a:hover {
+    color: #2a7da2;
 }
 
 .skills .box {
