@@ -186,8 +186,8 @@ p {
 }
 
 .year_company {
-    min-width: 150px; /* troubles*/
-    max-width: 150px; /* troubles*/
+    min-width: 150px;
+    max-width: 150px;
 }
 
 .year_company h5 {
@@ -200,17 +200,6 @@ p {
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
-}
-
-.box ul {
-    position: relative; /* for what*/
-}
-
-.box ul li {
-    position: relative; /* for what*/
-    list-style: none;
-    margin: 2px 0;
-    cursor: pointer; /* for what*/
 }
 
 .box a {
